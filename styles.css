@@ -1,0 +1,125 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 44px 0 144px 76px;
+}
+
+.link-header {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    cursor: pointer;
+    margin-right: 26px;
+}
+
+.button-header {
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: #39e612;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.logo-image {
+    width: 500px;
+    height: 500px;
+    margin-left: 125px;
+    margin-top: -30px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 85px;
+    width: 493px;
+}
+
+h1 {
+    font-weight: 700px;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4b505a;
+    margin-top: 32px;
+    margin-bottom: 55px;
+}
+
+.button-main {
+    color: #39e612;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 18px;
+    height: 100%;
+    line-height: 1px;
+    border: none;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .link-header {
+        display: none;
+    }
+
+    .button-header {
+        margin-left: 200px;
+    }
+
+    h1 {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: 0.6px;
+        width: 352px;
+        margin: -63px;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.4px;
+        width: 291px;
+        margin-top: 84px;
+        margin-left: -30px;
+    }
+
+    .button-main {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 1px;
+        text-align: center;
+        top: -40px;
+        width: 350px;
+        height: 20px;
+        margin-left: -60px;
+        position: relative;
+
+    }
+
+    .logo-image {
+        position: absolute;
+        top: 542px;
+        width: 312px;
+        height: 288px;
+        right: 35px;
+    }
+}
